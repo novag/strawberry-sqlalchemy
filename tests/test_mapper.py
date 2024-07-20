@@ -8,7 +8,7 @@ from sqlalchemy import JSON, Column, Enum, ForeignKey, Integer, String
 from sqlalchemy.dialects.postgresql.array import ARRAY
 from sqlalchemy.orm import relationship
 from strawberry.scalars import JSON as StrawberryJSON
-from strawberry.type import StrawberryOptional
+from strawberry.types.base import StrawberryOptional
 from strawberry_sqlalchemy_mapper import StrawberrySQLAlchemyMapper
 
 
